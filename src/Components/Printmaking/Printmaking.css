@@ -1,0 +1,18 @@
+.Printmaking {
+  display: flex;
+}
+.item {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.printmaking > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.izuVIe {
+  margin: 5px;
+  border-radius: 5px;
+}
