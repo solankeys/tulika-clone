@@ -29,11 +29,9 @@ const NavBar = () => {
         </div>
         <div className={sidebar ? 'nav-menu active' : 'nav-menu'}>
           <ul class='header__menu-ul' onClick={showSidebar}>
-            <Link to='#'>
               <li>
                 <AiOutlineClose onClick={showSidebar} />
               </li>
-            </Link>
             {SidebarData.map((item, index) => {
               return (
                 <>
@@ -58,22 +56,22 @@ const NavBar = () => {
           <input type='search' placeholder='Type to search' />
         </div>
         <ul className='header__lists'>
-          <Link to='/Exhibition'>
+          <Link to='/exhibition'>
             <li className='header-list'>Exhibition</li>
           </Link>
-          <Link to='#'>
+          <Link to='/gallary'>
             <li className='header-list'>Gallary</li>
           </Link>
-          <Link to='#'>
+          <Link to='/store'>
             <li className='header-list'>Store</li>
           </Link>
-          <Link to='#'>
+          <Link to='/studios'>
             <li className='header-list'>Studios</li>
           </Link>
-          <Link to='#'>
+          <Link to='/feed'>
             <li className='header-list'>Feed</li>
           </Link>
-          <Link to='#' className='login-button'>
+          <Link to='/login' className='login-button'>
             <li>Login</li>
           </Link>
         </ul>

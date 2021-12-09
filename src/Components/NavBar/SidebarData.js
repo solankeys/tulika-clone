@@ -6,22 +6,22 @@ export const SidebarData = [
   },
   {
     title: 'Exhibition',
-    path: '/Exhibition',
+    path: '/exhibition',
     cName: 'nav-text',
   },
   {
     title: 'Gallary',
-    path: '/Gallary',
+    path: '/gallary',
     cName: 'nav-text',
   },
   {
     title: 'Store',
-    path: '/Store',
+    path: '/store',
     cName: 'nav-text',
   },
   {
     title: 'Studios',
-    path: '/Studios',
+    path: '/studios',
     cName: 'nav-text',
   },
   {

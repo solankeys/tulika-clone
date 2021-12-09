@@ -58,7 +58,7 @@
   width: 100%;
 }
 .exhibition__image-container > img {
-  border: 10px 10px;
+  border-radius: 10px 10px;
   width: 100%;
   object-fit: contain;
 }
