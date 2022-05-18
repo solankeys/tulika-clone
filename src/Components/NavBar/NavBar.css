@@ -41,7 +41,7 @@ li {
   width: 200px;
   height: 100%;
   display: flex;
-  justify-content: cnter;
+  justify-content: center;
   position: fixed;
   top: 0;
   left: -100%;

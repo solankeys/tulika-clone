@@ -1,3 +1,7 @@
+.studiofilter {
+  background: #fff;
+}
+
 .studiofilter__desktop {
   display: none;
 }
@@ -78,7 +82,7 @@
 .studiofilter__desktopMost {
   display: flex;
   justify-content: space-between;
-  padding-left: 3%;
+  padding-left: 9%;
   color: #bbb;
   font-weight: 500;
 }

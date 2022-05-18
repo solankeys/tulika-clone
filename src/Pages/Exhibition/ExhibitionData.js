@@ -1,5 +1,5 @@
 import painting from '../../Images/painting.JPG'
-import sculpture from '../../Images/godimg.JPG'
+import sculpture from '../../Images/photography.JPG'
 import photograpgy from '../../Images/photography.JPG'
 import print from '../../Images/printmaking.JPG'
 import drawing from '../../Images/drawing.JPG'
